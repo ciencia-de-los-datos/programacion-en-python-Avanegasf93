@@ -279,8 +279,7 @@ def pregunta_08():
     numeros=list(dict.fromkeys(raw[1] for raw in data)) #manera fácil para filtrar y resulta en un diccionario
     numeros=sorted(numeros)
 
-    
-    lista=[]
+    lista8=[]
 
     for numero in numeros:
         lista_letras=[]
@@ -290,7 +289,7 @@ def pregunta_08():
             
         
         lista_letras=list(dict.fromkeys(lista_letras))
-        lista.append((numero,lista_letras))
+        lista8.append((numero,sorted(lista_letras)))
     
 
     return lista
