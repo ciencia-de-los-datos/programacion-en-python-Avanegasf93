@@ -292,7 +292,7 @@ def pregunta_08():
         lista8.append((numero,sorted(lista_letras)))
     
 
-    return lista
+    return lista8
 
 
 def pregunta_09():
